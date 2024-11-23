@@ -21,5 +21,5 @@ advertise = true
 # Uncomment to change the server URL advertised on the master server list.
 # Use this if you want an ss14s:// URL or have configured the server behind a reverse proxy or any of that.
 # Defaults to "ss14://[public server IP]:networking port"
-# server_url = "ss14://..."
-tags = "Good" # comma separated list of tags
+#server_url = ""
+tags = "region:am_n_e, lang:en, rp:low" # comma separated list of tags

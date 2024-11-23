@@ -8,9 +8,18 @@ tickrate = 30
 hostname = "Nerf Station 14"
 # Enables the lobby instead of straight up throwing clients into a game.
 lobbyenabled = true
+maxplayers = 80
 
 [auth]
 # Enforces authentication so that ALL connecting clients must have a proper account.
 # Otherwise, guest logins are allowed.
 # Possible values here are: 0 (optional), 1 (required), 2 (disabled)
 mode = 1
+
+[hub]
+advertise = true
+# Uncomment to change the server URL advertised on the master server list.
+# Use this if you want an ss14s:// URL or have configured the server behind a reverse proxy or any of that.
+# Defaults to "ss14://[public server IP]:networking port"
+# server_url = "ss14://..."
+tags = "Good" # comma separated list of tags

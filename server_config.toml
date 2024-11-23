@@ -1,14 +1,22 @@
+[status]
+enabled = true
+
 [net]
 # Reducing tickrate to 30 is basically unnoticeable
 # but reduces server, client and network load dramatically.
 tickrate = 30
 
+
 [game]
 # Changes the name of the server as it appears in the lobby and launcher.
-hostname = "Nerf Station 14"
+hostname = "[EN] Nerf Station 14"
 # Enables the lobby instead of straight up throwing clients into a game.
 lobbyenabled = true
-maxplayers = 80
+desc = "Beginner friendly! It's almost default SS14 besides reverted nerfs and on going programming of reverted nerfs."
+soft_max_players = 80
+
+[infolinks]
+discord = "https://discord.gg/Y5SVszpWPb"
 
 [auth]
 # Enforces authentication so that ALL connecting clients must have a proper account.
@@ -21,5 +29,6 @@ advertise = true
 # Uncomment to change the server URL advertised on the master server list.
 # Use this if you want an ss14s:// URL or have configured the server behind a reverse proxy or any of that.
 # Defaults to "ss14://[public server IP]:networking port"
-#server_url = ""
+server_url = "ss14://192.99.145.34"
 tags = "region:am_n_e, lang:en, rp:low" # comma separated list of tags
+hub_urls = "https://hub.spacestation14.com/"
